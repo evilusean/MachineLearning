@@ -1,0 +1,40 @@
+Machine Learning
+by Google Cloud
+
+About this Course
+This is a self-paced lab that takes place in the Google Cloud console. In this lab, you learn the basic ‘Hello World' of machine learning. Instead of programming explicit rules in a language such as Java or C++, you build a system that is trained on data to infer the rules that determine a relationship between numbers.
+
+
+Level	Beginner
+Commitment	40 Minutes
+Language	
+English
+Volunteer to translate subtitles for this course
+How To Pass	Pass all graded assignments to complete the course.
+Syllabus
+WEEK 1
+Learning TensorFlow: the Hello World of Machine Learning
+
+Graded: Learning TensorFlow: the Hello World of Machine Learning
+
+How It Works
+General
+How do I pass the course?
+
+  To earn your Course Certificate, you’ll need to earn a passing
+    grade on each of the required assignments—these can be quizzes,
+    peer-graded assignments, or programming assignments. Videos, readings,
+    and practice exercises are there to help you prepare for the graded
+    assignments. 
+    
+    Overview
+In this lab you will learn the basic ‘Hello World' of machine learning where, instead of programming explicit rules in a language such as Java or C++, you build a system that is trained on data to infer the rules that determine a relationship between numbers.
+
+What you'll do:
+Set up the development environment in the IDE
+
+Design a Machine Learning Model
+
+Train the Neural Network
+
+Test the model
