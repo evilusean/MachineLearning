@@ -1,0 +1,41 @@
+List of all Machine Learning Algorithms:
+1) Linear Regression
+2) Logistic Regression
+3) Decision Trees
+4) Random Forests
+5) KNN(K-Nearest Neighbors)
+6) SVM Support Vector Machines
+7) Naive Bayes
+8) Neural Networks
+9) Gradient Boosting
+10) K-Means Clusting
+11) PCA(Principle Component Analysis)
+12) Lasso Regression
+13) Ridge Regression
+14) ElasticNetRegression
+15) XGBoost
+
+Machine Learning:
+Torch, Tensorflow, Keras, pytorch, scikit learn, pandas, nltk(natural language toolkit), 
+
+AI ART:
+Stable Diffusion:2 gig Art 'AI'/Machine Learning(offline) can play starcraft
+https://colab.research.google.com/github/qunash/stable-diffusion-2-gui/blob/main/stable_diffusion_2_0.ipynb
+Japanese AniME
+https://h5.tu.qq.com/web/ai-2d/cartoon/index
+Dall-E2
+Google: Dream Fusion 3D, Models from text prompt
+Meta: Make a video
+MidJourney: https://midjourney.com/
+https://www.youtube.com/watch?v=T_2c-WEYHkU&t=12s&ab_channel=cherry-picking
+
+ChatGPT
+OpenAI GPT3
+https://chat.openai.com/chat
+Virtual Machine in GPT3:
+https://www.engraved.blog/building-a-virtual-machine-inside/
+GitHub Copilot
+punchline.ai
+Voice AI: https://beta.elevenlabs.io/
+Google: MusicLM/AudioLM
+Riffusion
