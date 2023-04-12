@@ -56,3 +56,48 @@ print(f'{b.grad:.4f}') # prints 645.5773, i.e. the numerical value of dg/db, que
 """
 with 2 inputs(a,b), you build out an expression graph, and an output value of (g)
 will build out entire mathematical expression, will know (c) is also a value, and maintain pointers for (c) to (a,b)
+
+Video 1 Lecture Time(8:10) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V1Files/Jupyter/micrograd_lecture_first_half_roughly.ipynb
+
+#In [11]: Takes in a single value of 'x'
+def f(x):
+  return 3*x**2 - 4*x + 5 
+#In [12]: Returns a Single value 'y'
+f(3.0)
+#Out [12]: Returns '20.0' as y
+#In [13]: 
+xs = np.arange(-5, 5, 0.25) #creates an array of x variables from -5 to 5 in steps of 0.25
+ys = f(xs) #get a set of ys by calling the above function on the xs
+plt.plot(xs, ys) #creates a parabola plot with 2 above xs, and ys variables lists
+#Noone working in neural nets actually writes out the expresion used in their neural nets that they learned in calculus, noone derives the derivative
+# as limit approaches zero: remember calculus derivative formula 
+#In[43]: setting up lim close to 0, Y =m(x) + b  Vs d = a*b + c #remember calculus, this is how he gets the slope
+#In[50]: adding (h=0.0001) to (a) and getting a smaller number
+#In[55]: Create functions to wrap values and add them together
+#In [257]: Starts Creating and explaining Functions at VideoTime(19:00) Finished creating functions for the math used in the notebook
+#In:[139]: Videotime(25:00) Copies and pastes code, GraphViz API, allows you to create a graph using 'drawdot'. visualizes forward pass
+#In[145]:adds gradient, for seeing impact of weights during back propagation on 'L'=d*f, grad 0=no impact, he manually inputs grads
+  #after back propagation, trying to nudge values higher to get a higher gradient, one step of an optimization
+#In[136]:Creates a new function for local scope, so as not to mess up global scope. Inline gradient check, trying to find out how 'c' impacts 'L'
+  #a '+' node simply passes it's gradient on to it's children; so if it's gradient is -2.00, it's child will be a -2.00
+  #chain rule allows you to simply multiply backwards on the chain to get gradient values, back propogation, recursively multiply through chain rule
+#In[152]: tanh function from numpy, squashing function, activation function using weights and inputs
+#In[241]: graphs a 2D neuron with pointers, takes 2 inputs(x1,x2), weights(w1,w2), bias(b). x1w1 + x2w2 + b, he adds an exponential for hyperbolic tanh funct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
