@@ -13,7 +13,7 @@ Wanted to understand what all the hype about AI/ChatGPT was about, so did this f
 Very Mathy, will need more linear algebra/calculus/trig to fully understand: </br>
 instantaneous rate of change: smaller interval = more accurate </br>
 Derivatives: lim 0 Vs L = (f(a+h) -f(a))/h </br>
-Chain Rule: h(x) = f(g(x))g(x) Vs dz/dx = (dz*dy)*(dy/dx) </br>
+Chain Rule: h(x) = f(g(x))g(x) Vs dz/dx = (dz/dy)*(dy/dx) </br>
   If a car is twice as fast as a bibcycle and a bicycle is four times as fast as a man, the car will be 8x as fast as a man. </br>
 slope intercept: Y=m(x) + b </br>
 hyperbolic functions:(tanh) </br>
