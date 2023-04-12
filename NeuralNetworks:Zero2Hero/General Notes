@@ -13,3 +13,46 @@ Links:
 https://github.com/karpathy/nn-zero-to-hero/tree/master/lectures/micrograd
 
 Notes:
+[12] = Scalar
+[12, 13] = Vector
+[1,2,3]
+[12,13,14]=Matrix
+[[1,2,3],[4,5,6],[7,8,9]
+[12,13,14][15,16,17],[18,19,20]]=Tensor(packaged scalar values, array of arrays/scalers
+Micrograd=An autograd(automatic gradient) engine, implements backpropagation
+  allows you to build out mathematical expressions, understand tensors at a micro level
+backpropagadtion=algorithm that allows you to efficiently evaluate the gradient of some loss function in respect to it's weights of a neural network
+  you can iteratively tune the weights to minimize the loss function and improve the network of a the network
+Neural networks=Are just mathematical expressions, A neural network is a method in artificial intelligence that teaches computers to process data in a way
+  that is inspired by the human brain. It is a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered
+  structure that resembles the human brain.
+  They take the input data as an input, and the weights as an input as a mathematical expression, and the output is your predictions/loss function
+"""
+pip install micrograd #install micrograd
+
+#Example usage
+#Below is a slightly contrived example showing a number of possible supported operations:
+
+from micrograd.engine import Value
+
+#2 inputs= a,b -4,2 wrapped with Value, a,b are transformed into c,d,e,f,g
+a = Value(-4.0)
+b = Value(2.0)
+c = a + b #add
+d = a * b + b**3 #multiply, to the 3rd power
+c += c + 1 #offset by 1
+c += 1 + c + (-a) #negate
+d += d * 2 + (b + a).relu() #squash at 0
+d += 3 * d + (b - a).relu()
+e = c - d
+f = e**2 #squared
+g = f / 2.0 #divide by constant, 2
+g += 10.0 / f
+print(f'{g.data:.4f}') # prints 24.7041, the outcome of this forward pass, g.data gets value of (g)
+g.backward() #initializes backpropagation from the node (g), recursively applies chain rule from calculus, evaluates derivatives of (g)
+print(f'{a.grad:.4f}') # prints 138.8338, i.e. the numerical value of dg/da, queries derivatives of (g) with respect to (a)
+print(f'{b.grad:.4f}') # prints 645.5773, i.e. the numerical value of dg/db, queries derivatives of (g) with respect to (b)
+#tells you how (a) and (b) are affecting (g) through mathematical expression
+"""
+with 2 inputs(a,b), you build out an expression graph, and an output value of (g)
+will build out entire mathematical expression, will know (c) is also a value, and maintain pointers for (c) to (a,b)
