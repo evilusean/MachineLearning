@@ -84,10 +84,10 @@ plt.plot(xs, ys) #creates a parabola plot with 2 above xs, and ys variables list
   #chain rule allows you to simply multiply backwards on the chain to get gradient values, back propogation, recursively multiply through chain rule
 #In[152]: tanh function from numpy, squashing function, activation function using weights and inputs
 #In[241]: graphs a 2D neuron with pointers, takes 2 inputs(x1,x2), weights(w1,w2), bias(b). x1w1 + x2w2 + b, he adds an exponential for hyperbolic tanh funct
-
-
-
-
+#In[199]: for backpropagating a multiplication, multiply the previous gradient(ahead in NN) by the value of the current variable; chain rule
+  (w1)weight finds (x1)variable gradient and (x1)variable finds (w1)weight gradient
+#VideoTime(1:10:00)Creates functions for automatic backpropagation ._backward() for addition, multiplication
+  #need to start at end and work backwards for each variable/weight
 
 
 
