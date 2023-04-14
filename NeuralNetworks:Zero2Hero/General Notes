@@ -98,8 +98,10 @@ https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/
 #In[320]:broke up tanh to new operations for backward pass,with same result
 #In[369]:Import torch #import pytorch, VideoTime(1:39:00) previous functions in micrograd used scalers, pytorch uses tensors(arrays of scalers)
   #o.item produces one item, o.data gives a double, even if only one variable(default tensor has 2 values)
-
-
+#In[592]:Create class neuron, constructor creates an input with weight(self.w, random number between -1 and 1) bias(self.b)
+  #n=Layer(2, 3) creates a set of 3 neurons(layer, list of neurons) 
+  #MLP class - takes a number of inputs and creates a list of neurons
+  #MLP(3, [4, 4, 1]) #3 input neurons, 2 layers of 4 and 1 output neuron, forward pass
 
 
 
