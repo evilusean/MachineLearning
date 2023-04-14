@@ -109,3 +109,10 @@ https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/
   #if loss is low, it is close to its target
   #for p in parameters();, slightly decrease gradient to try and decrease loss by += 0.01, forward pass -> backward pass -> update -> repeat
   #if you create too big of a += step, you might overstep and destabilize training
+#In[663]: for loop 20 times, forward pass -> backward pass -> update(increase step by a very small amount), print loss output
+  #this process is called 'gradient descent' this one is called 'stochastic gradient descent update'
+NonLinearities = Sigmoid vs Tanh vs Relu 
+VideoTime(2:17:10) Finishes talking about micrograd app and it's functions we just learned during video.
+VideoTime(2:18:35) talks about test_engine.py
+  Creates 2 chunks of code, one in micrograd and one in pytorch and makes sure they both match
+In datasets with millions a random subset is called a 'batch', so you don't forward pass entire dataset
