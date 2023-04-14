@@ -94,10 +94,10 @@ Topological Sort: ordering of graphs, such that all the edges go only from left 
 
 Video 1 Lecture Time(1:27:10) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V1Files/Jupyter/micrograd_lecture_second_half_roughly.ipynb
-
-
-
-
+#In[268]: fixing bugs, adding functions for wrapping a value(addition), multiplication: fixing null(rmul), adding exponentiation(pow) and division.
+#In[320]:broke up tanh to new operations for backward pass,with same result
+#In[369]:Import torch #import pytorch, VideoTime(1:39:00) previous functions in micrograd used scalers, pytorch uses tensors(arrays of scalers)
+  #o.item produces one item, o.data gives a double, even if only one variable(default tensor has 2 values)
 
 
 
