@@ -27,6 +27,7 @@ Neural networks=Are just mathematical expressions, A neural network is a method 
   that is inspired by the human brain. It is a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered
   structure that resembles the human brain.
   They take the input data as an input, and the weights as an input as a mathematical expression, and the output is your predictions/loss function
+Loss=A single number calculated by a neural net, that somehow measures total performance of NN, you want to minimize the loss
 """
 pip install micrograd #install micrograd
 
@@ -102,7 +103,9 @@ https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/
   #n=Layer(2, 3) creates a set of 3 neurons(layer, list of neurons) 
   #MLP class - takes a number of inputs and creates a list of neurons
   #MLP(3, [4, 4, 1]) #3 input neurons, 2 layers of 4 and 1 output neuron, forward pass
-
-
-
-
+#In[666]:Creates an example data set of 4, with weights, binary classifier neural net, if y's = target, then post x's
+#In[682]:First loss function, A single number calculated by a neural net, that somehow measures total performance of NN
+  #calculates mean squared error of loss, since it is squared, you will get the absolute number, never a negative, the more off you are, the greater the loss
+  #if loss is low, it is close to its target
+  #for p in parameters();, slightly decrease gradient to try and decrease loss by += 0.01, forward pass -> backward pass -> update -> repeat
+  #if you create too big of a += step, you might overstep and destabilize training
