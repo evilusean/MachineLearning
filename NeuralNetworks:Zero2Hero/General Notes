@@ -88,9 +88,12 @@ plt.plot(xs, ys) #creates a parabola plot with 2 above xs, and ys variables list
   (w1)weight finds (x1)variable gradient and (x1)variable finds (w1)weight gradient
 #VideoTime(1:10:00)Creates functions for automatic backpropagation ._backward() for addition, multiplication
   #need to start at end and work backwards for each variable/weight
+#In[235]: creates a sorting function that starts from node o and goes through all children(iterates) and lays them out, then adds self to topo list
+Topological Sort: ordering of graphs, such that all the edges go only from left to right, Used for grading all nodes in a neuron
+#In[258]/In[259]: Fixed a bug about adding gradients, fixed with +=
 
-
-
+Video 1 Lecture Time(1:27:10) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V1Files/Jupyter/micrograd_lecture_second_half_roughly.ipynb
 
 
 
