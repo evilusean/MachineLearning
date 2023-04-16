@@ -6,3 +6,5 @@ Pytorch Tutorial:
 https://pytorch.org/tutorials/beginner/nlp/pytorch_tutorial.html
 MakeMore Tutorial(The spelled-out intro to language modeling: building makemore by Andrej Karpathy):
 https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2
+Pytorch Multinomial(probability distribution):
+https://pytorch.org/docs/stable/generated/torch.multinomial.html
