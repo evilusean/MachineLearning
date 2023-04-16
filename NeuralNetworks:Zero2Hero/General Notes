@@ -143,3 +143,67 @@ In[9]: Creating a bigram
   b.items #returns key value tuple pairs, 
   sorted(b.items(), key = lambda kv: -kv[1]) #sorts key value pairs by the second value of the tuple key value pairs '-' does most likely
 It is more efficient to store data in a 2D array instead of python dictionary, torch.tensor allows you to create multi dimensional arrays
+Tensors will allow you to manipulate individual entries as well, [indexing]
+In[20]/In[365]: create an array 'N' that represents the capitals 28x28 and 2 special characters +26 letters in alphabet
+In[366]:set(' '.join(words)) #creates a set(no duplicates) of a single string.join(words) of all the words into a sorted list
+  stoi {s:i for i,s in enumerate(chars)} #creates a mapping of each character and enumerates it(gives it a number 0-25(26)
+  stoi['<S>'] = 26 stoi['<E>'] = 27 #creates a number for the special characters 'start' and 'end'
+In[29]/In[367]: Creates a 28x28 array of all characters(26 letters+2 specials)
+In[368]: #use matplotlib to create a pretty visualization of the 28x28 array, color coded based on frequency
+  He changed <S> and <E> special characters to '.' for graph visability and removed one special character
+In[159]: N[0] takes first row of array
+In[160]: converts it into a float probability of distribution instead of an integer count
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
