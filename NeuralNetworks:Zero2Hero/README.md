@@ -18,3 +18,4 @@ Chain Rule: h(x) = f(g(x))g(x) Vs dz/dx = (dz/dy)*(dy/dx) </br>
 slope intercept: Y=m(x) + b </br>
 hyperbolic functions:(tanh) </br>
 Topological Sort: ordering of graphs, such that all the edges go only from left to right
+maximum liklihood assigned/log probability=log(a*b*c) = log(a) + log(b) + log(c)
