@@ -10,3 +10,5 @@ Pytorch Multinomial(probability distribution):
 https://pytorch.org/docs/stable/generated/torch.multinomial.html
 Pytorch.sum:
 https://pytorch.org/docs/stable/generated/torch.sum.html
+Pytorch broadcasting semantics:
+https://pytorch.org/docs/stable/notes/broadcasting.html
