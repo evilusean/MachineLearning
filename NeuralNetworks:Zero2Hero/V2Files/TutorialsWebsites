@@ -8,3 +8,5 @@ MakeMore Tutorial(The spelled-out intro to language modeling: building makemore 
 https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2
 Pytorch Multinomial(probability distribution):
 https://pytorch.org/docs/stable/generated/torch.multinomial.html
+Pytorch.sum:
+https://pytorch.org/docs/stable/generated/torch.sum.html
