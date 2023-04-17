@@ -17,5 +17,5 @@ Chain Rule: h(x) = f(g(x))g(x) Vs dz/dx = (dz/dy)*(dy/dx) </br>
   If a car is twice as fast as a bibcycle and a bicycle is four times as fast as a man, the car will be 8x as fast as a man. </br>
 slope intercept: Y=m(x) + b </br>
 hyperbolic functions:(tanh) </br>
-Topological Sort: ordering of graphs, such that all the edges go only from left to right
-maximum liklihood assigned/log probability=log(a*b*c) = log(a) + log(b) + log(c)
+Topological Sort: ordering of graphs, such that all the edges go only from left to right</br>
+maximum liklihood assigned/log probability=log(a*b*c) = log(a) + log(b) + log(c)</br>
