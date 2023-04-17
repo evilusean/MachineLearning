@@ -12,3 +12,5 @@ Pytorch.sum:
 https://pytorch.org/docs/stable/generated/torch.sum.html
 Pytorch broadcasting semantics:
 https://pytorch.org/docs/stable/notes/broadcasting.html
+torch.nn.functional.one_hot:
+https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html
