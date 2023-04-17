@@ -164,12 +164,12 @@ In[435]:checks probability maximum liklihood assigned to every bigram in trainin
   logprob = torch.log(prob) #(log liklihood: more probability=lower negative log)
   loss function=negative log liklihood, lower it is, is better
   Goal=Maximize liklihood of the data w.r.t model parameters(statistical modeling)
-
-
-
-
-
-
+  You can validate the probability for any word= for w in ["sean"]:
+  if you try to predict a loss for something that has no probability you get infinity loss function vs Model Smoothing=fake counts= P = N + 1
+In[449]: Training Set for bigrams, made up of 2 lists, inputs(x) and targets(y)
+  Confusing: there is a lowercase torch.tensor and an Uppercase torch.Tensor only difference is dtype, lowercase automatically sets dtype
+In[452]:torch.nn.functional.one_hot used to set weights of certain neurons(xs), encode integers into vectors to feed into neural net
+ torch.randn #fills the rest of the torch with random numbers based on a standard deviation distribution pattern 
 
 
 
