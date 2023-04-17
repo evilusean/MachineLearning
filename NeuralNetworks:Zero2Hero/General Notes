@@ -153,9 +153,12 @@ In[368]: #use matplotlib to create a pretty visualization of the 28x28 array, co
   He changed <S> and <E> special characters to '.' for graph visability and removed one special character
 In[159]: N[0] takes first row of array
 In[160]: converts it into a float probability of distribution instead of an integer count
-
-
-
+In[18]:Deterministic generator, seeds a pseudo random function that creates 1 sample for an index of ['m']
+In [135]/In[19]:Deterministic generator, seeds a pseudo random function that creates random numbers and normalizes it
+In[164]: loop that creates random names, ix grabs index 0, p=N[ix] #while true grabs the row of the index that you are currently on, then normalizes
+  generator samples index, if ix == 0l #this is the end token, break out of loop, otherwise print itos(ix) #prints next characters of index
+  out[] #creates a list of names created, for i in range(20): #samples 20 names
+In[21-28]:p.sum(1).shape #he creates a new array with probability, so you don't need to recalculate for every for loop run
 
 
 
