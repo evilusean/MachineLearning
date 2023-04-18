@@ -169,13 +169,13 @@ In[435]:checks probability maximum liklihood assigned to every bigram in trainin
 In[449]: Training Set for bigrams, made up of 2 lists, inputs(x) and targets(y)
   Confusing: there is a lowercase torch.tensor and an Uppercase torch.Tensor only difference is dtype, lowercase automatically sets dtype
 In[487]:torch.nn.functional.one_hot used to set weights of certain neurons(xs), encode integers into vectors to feed into neural net
-In[493]:torch.randn #fills the rest of the torch with random numbers based on a standard deviation distribution pattern 
+In[493]:torch.randn #fills the rest of the torch with random numbers based on a standard deviation distribution pattern (softmax)
 In[558]:create probabilities for 5x27 matrix, each row sums to 1, how likely each character is going to come next
-
-
-
-
-
+In[560]: function that explains the liklihood of each character pair
+In[565]/In[566]: training targets for the neural net, will be converted from integers into vectors
+In[602]:Forward pass of the neural net of all inputs to get predictions, a single linear layer followed by a softmax
+In[604]:loss.backward #initializes backward propagation at the final input node
+In[605]:update every single element parameters with += 0.1 to the gradient, nudge to reduce the loss function
 
 
 
