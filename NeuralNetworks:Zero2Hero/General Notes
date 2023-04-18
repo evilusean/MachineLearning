@@ -176,8 +176,8 @@ In[565]/In[566]: training targets for the neural net, will be converted from int
 In[602]:Forward pass of the neural net of all inputs to get predictions, a single linear layer followed by a softmax
 In[604]:loss.backward #initializes backward propagation at the final input node
 In[605]:update every single element parameters with += 0.1 to the gradient, nudge to reduce the loss function
-
-
+In[682]:creates bigram tensor for all words
+In[716]:Forward Pass -> Backward Pass -> Update loop x1 on 228146 bigrams
 
 
 
