@@ -168,9 +168,9 @@ In[435]:checks probability maximum liklihood assigned to every bigram in trainin
   if you try to predict a loss for something that has no probability you get infinity loss function vs Model Smoothing=fake counts= P = N + 1
 In[449]: Training Set for bigrams, made up of 2 lists, inputs(x) and targets(y)
   Confusing: there is a lowercase torch.tensor and an Uppercase torch.Tensor only difference is dtype, lowercase automatically sets dtype
-In[452]:torch.nn.functional.one_hot used to set weights of certain neurons(xs), encode integers into vectors to feed into neural net
- torch.randn #fills the rest of the torch with random numbers based on a standard deviation distribution pattern 
-
+In[487]:torch.nn.functional.one_hot used to set weights of certain neurons(xs), encode integers into vectors to feed into neural net
+In[493]:torch.randn #fills the rest of the torch with random numbers based on a standard deviation distribution pattern 
+In[558]:create probabilities for 5x27 matrix, each row sums to 1, how likely each character is going to come next
 
 
 
