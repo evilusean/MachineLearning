@@ -179,9 +179,14 @@ In[605]:update every single element parameters with += 0.1 to the gradient, nudg
 In[682]:creates bigram tensor for all words
 In[716]:Forward Pass -> Backward Pass -> Update loop x1 on 228146 bigrams
 
-
-
-
+=============================================================================================================================================
+Video 3: 1:15:39(Length)
+Building makemore Part 2: MLP
+https://www.youtube.com/watch?v=TCH_1BHY58I&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=3
+MLP(Multi Layer Perceptron)
+groups similar terms together on the matrix to try and predict the next word in a sentence. 
+Video 3 Lecture Time(9:05) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part2_mlp.ipynb
 
 
 
