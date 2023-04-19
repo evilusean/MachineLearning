@@ -16,3 +16,5 @@ torch.nn.functional.one_hot:
 https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html
 torch.randn #fills a torch with random numbers:
 https://pytorch.org/docs/stable/generated/torch.randn.html
+Pytorch Internals:
+http://blog.ezyang.com/2019/05/pytorch-internals/
