@@ -187,10 +187,11 @@ MLP(Multi Layer Perceptron)
 groups similar terms together on the matrix to try and predict the next word in a sentence. 
 Video 3 Lecture Time(9:05) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part2_mlp.ipynb
-
-
-
-
+In[4}:Building out the vocabular of character mappings strings to integers and vica versa
+In[5]:dataset creation: blocksize #context length of how many characters you are going to use to predict next one, predictions from 3 characters 
+  X = inputs to NN, Y = labels for each example in x #x stores current running context, y is the prediction
+  crops context showing the 3 characters ----> and predicted character, pads with ... dots
+In[15]:C = torch.randn((27,2)) #creating 2D matrix 'C' and seeding with random numbers that is 27x2
 
 
 
