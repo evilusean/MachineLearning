@@ -210,10 +210,11 @@ In[793]: torch.linspace(min, max, steps) #tries to figure optimal rate to train 
   learning rate decay=at late stages of training, reduce the size of the learning rate
   the larger the dataset, the higher chances you have of overfitting your training data
   to avoid overtraining, split the data x3(training split, development/validation split, test split=80%/10%/10%)
+  undertraining is when you train too small of a dataset
 In[796]:plots the learning rate
-
-
-
+In[710]:visualizes embeddings on neural net
+In[797]:uses cross entropy to train instead of forward pass -> backward pass -> update
+In[820]: generates 20 samples from the trained model,
 
 
 
