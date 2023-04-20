@@ -192,13 +192,14 @@ In[5]:dataset creation: blocksize #context length of how many characters you are
   X = inputs to NN, Y = labels for each example in x #x stores current running context, y is the prediction
   crops context showing the 3 characters ----> and predicted character, pads with ... dots
 In[15]:C = torch.randn((27,2)) #creating 2D matrix 'C' and seeding with random numbers that is 27x2
-
-
-
-
-
-
-
+In[35]:creates a one_hot vector that sums to 1, and random standard distribution to all elements in tensor
+In[126]: creates random weights for 6 inputs, and 100 neurons
+.view #changes the way you can view a tensor, dimensions
+.storage #tensors are always stored as 1D array,
+In[127]: embeds by concatonating and unbinding in case you change the blocksize from 3
+In[328]: creates h using tanh on emb.view with weights and bias
+In[339]: creates final layer W2= 100 inputs and 27 neurons(characters) with 27 bias
+  logits(output) will be h(tanh) * W2(weights) +b2(bias)
 
 
 
