@@ -20,3 +20,5 @@ Pytorch Internals:
 http://blog.ezyang.com/2019/05/pytorch-internals/
 All Torch Functions:
 https://pytorch.org/docs/stable/torch.html
+Pytorch Functional Cross Entropy:
+https://pytorch.org/docs/stable/generated/torch.nn.functional.cross_entropy.html
