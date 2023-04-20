@@ -206,8 +206,11 @@ In[386]:Forward pass, takes logits and calculates loss, can use a torch function
 In[523]:added backward pass, and gradient nudge, added for loop 
 In[547]:added all words into training data
 In[554]: added minibatch construct, in reality while training data, you set a mini batch set of data and train that set instead of a large dataset
-
-
+In[793]: torch.linspace(min, max, steps) #tries to figure optimal rate to train dataset min amount, max amount, step size
+  learning rate decay=at late stages of training, reduce the size of the learning rate
+  the larger the dataset, the higher chances you have of overfitting your training data
+  to avoid overtraining, split the data x3(training split, development/validation split, test split=80%/10%/10%)
+In[796]:plots the learning rate
 
 
 
