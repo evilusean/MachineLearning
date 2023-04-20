@@ -200,12 +200,12 @@ In[127]: embeds by concatonating and unbinding in case you change the blocksize 
 In[328]: creates h using tanh on emb.view with weights and bias
 In[339]: creates final layer W2= 100 inputs and 27 neurons(characters) with 27 bias
   logits(output) will be h(tanh) * W2(weights) +b2(bias)
-
-
-
-
-
-
+  logits are then exponentiated and normalized, 
+In[384]/[790]:grouped all of the above code into a single frame
+In[386]:Forward pass, takes logits and calculates loss, can use a torch function called cross entropy to get same result
+In[523]:added backward pass, and gradient nudge, added for loop 
+In[547]:added all words into training data
+In[554]: added minibatch construct, in reality while training data, you set a mini batch set of data and train that set instead of a large dataset
 
 
 
