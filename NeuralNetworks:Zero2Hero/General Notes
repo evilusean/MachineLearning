@@ -216,9 +216,17 @@ In[710]:visualizes embeddings on neural net
 In[797]:uses cross entropy to train instead of forward pass -> backward pass -> update
 In[820]: generates 20 samples from the trained model,
 
+=============================================================================================================================================
+Video 4: 1:55:57(Length)
+Building makemore Part 3: Activations & Gradients, BatchNorm
+https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2
+Links:
+- "Kaiming init" paper: https://arxiv.org/abs/1502.01852
+- BatchNorm paper: https://arxiv.org/abs/1502.03167
+- Bengio et al. 2003 MLP language model paper (pdf): https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
+- Good paper illustrating some of the problems with batchnorm in practice: https://arxiv.org/abs/2105.07576
+RNN(Recurring Neural Networks)=not easily optimizable
 
-
-
-
-
+Video 4 Lecture Time(1:25) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part3_bn.ipynb
 
