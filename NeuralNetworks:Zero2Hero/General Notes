@@ -229,4 +229,62 @@ RNN(Recurring Neural Networks)=not easily optimizable
 
 Video 4 Lecture Time(1:25) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part3_bn.ipynb
+In[1]:import modules
+In[2]:opening words file
+In[4]:creating all lower case letters and special '.' 
+In[5]: reading in dataset and processing, creating 3 splits; train, dev, and test
+In[6]: dimensions of embedding vectors, 200 hidden neurons of MLP, assign values pseudo randomly to weights and biases
+In[7]: optimize for over 200k steps, forward pass->backward pass->update
+  you can tell initialization is wrong if starting value for loss function is too high, 
+  when initializing you want logits to be close to 0 or equal to avoid extreme loss numbers, use softmax
+  in the inverted hockey stick, it starts high and flattens out, what is happening is logits are being squashed and rearranged
+  tanh is a squashing function
+In[69]:loss function is negative log probability
+In[8]: graph loss function
+In[9]: refactored forward pass with split data
+In[10]: sample from model, forward pass, sample, repeat until special end token,
+In[96]:h.shape #torch.Size([32, 200]) h.view.shape(-1)#stretches out 32 inputs x 200 neurons into one big 6400 vector 
+  h.view(-1).tolist()#converts to 1 large list of floats
+  plt.hist(h.view(-1).tolist(),50); #creates a histogram of values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
