@@ -242,7 +242,9 @@ In[7]: optimize for over 200k steps, forward pass->backward pass->update
 In[69]:loss function is negative log probability
 In[8]: graph loss function
 In[9]: refactored forward pass with split data
+  sets standard deviation once, at beginning of training
 In[10]: sample from model, forward pass, sample, repeat until special end token,
+  also contains batch normalization
 In[96]:h.shape #torch.Size([32, 200]) h.view.shape(-1)#stretches out 32 inputs x 200 neurons into one big 6400 vector 
   h.view(-1).tolist()#converts to 1 large list of floats
   plt.hist(h.view(-1).tolist(),50); #creates a histogram of values
@@ -251,7 +253,8 @@ The deeper a network is; increased complexity, problems stack up, if you have a 
 kaiming normal=torch.nn.init vs most common way to initialize a neural net
 you can square root any number by exponentiating(**) it to 0.5
 Batch Normalization(2015)=made it possible to train deep neural nets very reliably, normalizes hidden states to gaussian distribution
-
+  customary to take linear/convulation layer and append a batch normalization layer right after it,stabilizes training
+  'jitter' introduces entropy to training, noise, regularizer, counterintuitively stabilizes training.
 
 
 
