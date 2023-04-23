@@ -248,9 +248,9 @@ In[96]:h.shape #torch.Size([32, 200]) h.view.shape(-1)#stretches out 32 inputs x
   plt.hist(h.view(-1).tolist(),50); #creates a histogram of values
 Activation Functions=Sigmoid Vs tanh vs ReLU vs Leaky ReLU vs Maxout vs ELU
 The deeper a network is; increased complexity, problems stack up, if you have a bad initialization you can get in a situation where you don't train at all
-
-
-
+kaiming normal=torch.nn.init vs most common way to initialize a neural net
+you can square root any number by exponentiating(**) it to 0.5
+Batch Normalization(2015)=made it possible to train deep neural nets very reliably, normalizes hidden states to gaussian distribution
 
 
 
