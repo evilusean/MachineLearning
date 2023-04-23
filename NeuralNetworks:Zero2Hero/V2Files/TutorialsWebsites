@@ -22,3 +22,5 @@ All Torch Functions:
 https://pytorch.org/docs/stable/torch.html
 Pytorch Functional Cross Entropy:
 https://pytorch.org/docs/stable/generated/torch.nn.functional.cross_entropy.html
+Torch.nn.init/KaimingNormal:
+https://pytorch.org/docs/stable/nn.init.html
