@@ -239,6 +239,7 @@ In[7]: optimize for over 200k steps, forward pass->backward pass->update
   when initializing you want logits to be close to 0 or equal to avoid extreme loss numbers, use softmax
   in the inverted hockey stick, it starts high and flattens out, what is happening is logits are being squashed and rearranged
   tanh is a squashing function
+  
 In[69]:loss function is negative log probability
 In[8]: graph loss function
 In[9]: refactored forward pass with split data
@@ -255,9 +256,10 @@ you can square root any number by exponentiating(**) it to 0.5
 Batch Normalization(2015)=made it possible to train deep neural nets very reliably, normalizes hidden states to gaussian distribution
   customary to take linear/convulation layer and append a batch normalization layer right after it,stabilizes training
   'jitter' introduces entropy to training, noise, regularizer, counterintuitively stabilizes training.
-
-
-
+  for batch normalization, it is better to not use bias(b1) use bnbias, 
+  weight layer -> batch normalization layer -> non-linearity layer(tanh)
+resnets are used for image classification, an image is fed in, many layers with a repeating structure that attempts to predict what is in image
+  convolution layers are linear layers used for images
 
 
 
