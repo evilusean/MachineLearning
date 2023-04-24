@@ -258,11 +258,15 @@ Batch Normalization(2015)=made it possible to train deep neural nets very reliab
   'jitter' introduces entropy to training, noise, regularizer, counterintuitively stabilizes training.
   for batch normalization, it is better to not use bias(b1) use bnbias, 
   weight layer -> batch normalization layer -> non-linearity layer(tanh)
+  try to avoid batch normalization, if you can, it creates alot of bugs try group normalization or layer normalization instead
+  you are trying to avoid loss function going to 0 or infinity with normalization
 resnets are used for image classification, an image is fed in, many layers with a repeating structure that attempts to predict what is in image
   convolution layers are linear layers used for images
-
-
-
+In[13]:Summary/torchified code/goes over a module structured code:
+  class linear #creates a linear layer fan in=inputs, fan_out=outputs, bias= True, with weights
+  class BatchNormId #creates batch normalization, kwargs are dimensionality, epsilon, momentum, buffers=running mean, running variance, exponential moving avg
+  class Tanh: squashing/loss function
+In[14]:
 
 
 
