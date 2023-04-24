@@ -24,3 +24,9 @@ Pytorch Functional Cross Entropy:
 https://pytorch.org/docs/stable/generated/torch.nn.functional.cross_entropy.html
 Torch.nn.init/KaimingNormal:
 https://pytorch.org/docs/stable/nn.init.html
+Batch Normalization layer(1D):
+https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm1d.html
+Linear Layer:
+https://pytorch.org/docs/stable/generated/torch.nn.Linear.html
+Resnet(used for images):
+https://pytorch.org/hub/pytorch_vision_resnet/
