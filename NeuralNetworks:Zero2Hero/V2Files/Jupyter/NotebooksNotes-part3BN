@@ -1,0 +1,57 @@
+=============================================================================================================================================
+Video 4: 1:55:57(Length)
+Building makemore Part 3: Activations & Gradients, BatchNorm
+https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2
+Links:
+- "Kaiming init" paper: https://arxiv.org/abs/1502.01852
+- BatchNorm paper: https://arxiv.org/abs/1502.03167
+- Bengio et al. 2003 MLP language model paper (pdf): https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
+- Good paper illustrating some of the problems with batchnorm in practice: https://arxiv.org/abs/2105.07576
+RNN(Recurring Neural Networks)=not easily optimizable
+
+Video 4 Lecture Time(1:25) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part3_bn.ipynb
+In[1]:import modules
+In[2]:opening words file
+In[4]:creating all lower case letters and special '.' 
+In[5]: reading in dataset and processing, creating 3 splits; train, dev, and test
+In[6]: dimensions of embedding vectors, 200 hidden neurons of MLP, assign values pseudo randomly to weights and biases
+In[7]: optimize for over 200k steps, forward pass->backward pass->update
+  you can tell initialization is wrong if starting value for loss function is too high, 
+  when initializing you want logits to be close to 0 or equal to avoid extreme loss numbers, use softmax
+  in the inverted hockey stick, it starts high and flattens out, what is happening is logits are being squashed and rearranged
+  tanh is a squashing function
+  
+In[69]:loss function is negative log probability
+In[8]: graph loss function
+In[9]: refactored forward pass with split data
+  sets standard deviation once, at beginning of training
+In[10]: sample from model, forward pass, sample, repeat until special end token,
+  also contains batch normalization
+In[96]:h.shape #torch.Size([32, 200]) h.view.shape(-1)#stretches out 32 inputs x 200 neurons into one big 6400 vector 
+  h.view(-1).tolist()#converts to 1 large list of floats
+  plt.hist(h.view(-1).tolist(),50); #creates a histogram of values
+Activation Functions=Sigmoid Vs tanh vs ReLU vs Leaky ReLU vs Maxout vs ELU
+The deeper a network is; increased complexity, problems stack up, if you have a bad initialization you can get in a situation where you don't train at all
+kaiming normal=torch.nn.init vs most common way to initialize a neural net
+you can square root any number by exponentiating(**) it to 0.5
+Batch Normalization(2015)=made it possible to train deep neural nets very reliably, normalizes hidden states to gaussian distribution
+  customary to take linear/convulation layer and append a batch normalization layer right after it,stabilizes training
+  'jitter' introduces entropy to training, noise, regularizer, counterintuitively stabilizes training.
+  for batch normalization, it is better to not use bias(b1) use bnbias, 
+  weight layer -> batch normalization layer -> non-linearity layer(tanh)
+  try to avoid batch normalization, if you can, it creates alot of bugs try group normalization or layer normalization instead
+  you are trying to avoid loss function going to 0 or infinity with normalization
+resnets are used for image classification, an image is fed in, many layers with a repeating structure that attempts to predict what is in image
+  convolution layers are linear layers used for images
+In[13]:Summary/torchified code/goes over a module structured code:
+  class linear #creates a linear layer fan in=inputs, fan_out=outputs, bias= True, with weights
+  class BatchNormId #creates batch normalization, kwargs are dimensionality, epsilon, momentum, buffers=running mean, running variance, exponential moving avg
+  class Tanh: squashing/loss function
+In[14]:200K steps, forward pass(linear)+cross entropy(jitter), backward pass(grad fill), update
+In[15]:forward pass activation histogram on tanh layer(softmax)
+In[16]:gradient saturation histogram for backward pass optimization
+In[17]:updating parameters of NN histogram with weights
+In[18]:Plots update ratios over time=updates/data, learning rate of gradients and weights
+Last 3 graphs, used to track performance or bottlenecks in neural net
+Modules=Layers, can be stacked up in a Neural net like lego building blocks
