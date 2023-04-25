@@ -270,8 +270,9 @@ In[14]:200K steps, forward pass(linear)+cross entropy(jitter), backward pass(gra
 In[15]:forward pass activation histogram on tanh layer(softmax)
 In[16]:gradient saturation histogram for backward pass optimization
 In[17]:updating parameters of NN histogram with weights
-
-
+In[18]:Plots update ratios over time=updates/data, learning rate of gradients and weights
+Last 3 graphs, used to track performance or bottlenecks in neural net
+Modules=Layers, can be stacked up in a Neural net like lego building blocks
 
 
 
