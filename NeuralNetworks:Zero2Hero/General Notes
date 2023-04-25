@@ -266,10 +266,10 @@ In[13]:Summary/torchified code/goes over a module structured code:
   class linear #creates a linear layer fan in=inputs, fan_out=outputs, bias= True, with weights
   class BatchNormId #creates batch normalization, kwargs are dimensionality, epsilon, momentum, buffers=running mean, running variance, exponential moving avg
   class Tanh: squashing/loss function
-In[14]:
-
-
-
+In[14]:200K steps, forward pass(linear)+cross entropy(jitter), backward pass(grad fill), update
+In[15]:forward pass activation histogram on tanh layer(softmax)
+In[16]:gradient saturation histogram for backward pass optimization
+In[17]:updating parameters of NN histogram with weights
 
 
 
