@@ -274,11 +274,16 @@ In[18]:Plots update ratios over time=updates/data, learning rate of gradients an
 Last 3 graphs, used to track performance or bottlenecks in neural net
 Modules=Layers, can be stacked up in a Neural net like lego building blocks
 
+=============================================================================================================================================
+Video 5: 1:55:23(Length)
+Building makemore Part 4: Becoming a Backprop Ninja
+https://www.youtube.com/watch?v=q8SA3rM6ckI&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=6
+Links:
+https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b
+https://arxiv.org/abs/1502.03167
 
-
-
-
-
+Video 5 Lecture Time() Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part4_backprop.ipynb
 
 
 
