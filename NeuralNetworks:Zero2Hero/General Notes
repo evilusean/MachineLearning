@@ -284,9 +284,11 @@ https://arxiv.org/abs/1502.03167
 
 Video 5 Lecture Time(7:15) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part4_backprop.ipynb
-
-
-
+In [7]: utility function for gradients
+In[8]:Initialization: C=embedding table, first layer=w1, b2, second layer=w2, b2 , batch normalization, 
+In[9]: calculating single batch
+In[10]: longer forward pass with loss function
+In[210]:Exercise 1:  manual backpropagation without pytorch; 
 
 
 
