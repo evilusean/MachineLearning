@@ -287,9 +287,10 @@ https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/
 In [7]: utility function for gradients
 In[8]:Initialization: C=embedding table, first layer=w1, b2, second layer=w2, b2 , batch normalization, 
 In[9]: calculating single batch
-In[10]: longer forward pass with loss function
-In[210]:Exercise 1:  manual backpropagation without pytorch; 
-
+In[10]: longer forward pass with loss function;logits come out of neural net, find max, subtract max for numerical stability(too large, exponentiatied)
+In[210]:Exercise 1:  manual backpropagation without pytorch; dlogprobs=holds derivative of loss with respect to all elements of logprobs[32,27]
+  probabilities got by adding up all elements and dividing by mean and applied to .log function
+  need to transform the [32,1] column variables into an array of [32,27]
 
 
 
