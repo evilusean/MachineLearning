@@ -19,3 +19,5 @@ slope intercept: Y=m(x) + b </br>
 hyperbolic functions:(tanh) </br>
 Topological Sort: ordering of graphs, such that all the edges go only from left to right</br>
 maximum liklihood assigned/log probability=log(a*b*c) = log(a) + log(b) + log(c)</br>
+Bessels Correction </br>
+
