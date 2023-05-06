@@ -292,10 +292,14 @@ In[210]:Exercise 1:  manual backpropagation without pytorch; dlogprobs=holds der
   probabilities got by adding up all elements and dividing by mean and applied to .log function
   need to transform the [32,1] column variables into an array of [32,27]
   bn variables are referenced in In[10]:
+  all the cmp(...) are manual backpropagation steps
 @ = matrix multiply, **=to the power of
 keepdim=True #keep dimensions
 .clone() #can clone any matrix, safer to work on a copy than the original 
-
+In[211]:simpler way of backpropagating with loss function
+In[225]:checks first row 
+In[235]:softmax calculates probability, sums to 1
+In[239]: Visualizing dlogits=probabilities matrix from forward pass
 
 
 
