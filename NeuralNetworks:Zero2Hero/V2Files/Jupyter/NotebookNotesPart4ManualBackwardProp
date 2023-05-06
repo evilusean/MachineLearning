@@ -1,0 +1,30 @@
+=============================================================================================================================================
+Video 5: 1:55:23(Length)
+Building makemore Part 4: Becoming a Backprop Ninja
+https://www.youtube.com/watch?v=q8SA3rM6ckI&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=6
+Links:
+https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b
+https://arxiv.org/abs/1502.03167
+
+Video 5 Lecture Time(7:15) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part4_backprop.ipynb
+In [7]: utility function for gradients
+In[8]:Initialization: C=embedding table, first layer=w1, b2, second layer=w2, b2 , batch normalization, 
+In[9]: calculating single batch
+In[10]: longer forward pass with loss function;logits come out of neural net, find max, subtract max for numerical stability(too large, exponentiatied)
+In[210]:Exercise 1:  manual backpropagation without pytorch; dlogprobs=holds derivative of loss with respect to all elements of logprobs[32,27]
+  probabilities got by adding up all elements and dividing by mean and applied to .log function
+  need to transform the [32,1] column variables into an array of [32,27]
+  bn variables are referenced in In[10]:
+  all the cmp(...) are manual backpropagation steps
+@ = matrix multiply, **=to the power of
+keepdim=True #keep dimensions
+.clone() #can clone any matrix, safer to work on a copy than the original 
+In[211]:simpler way of backpropagating with loss function
+In[225]:checks first row 
+In[235]:softmax calculates probability, sums to 1
+In[239]: Visualizing dlogits=probabilities matrix from forward pass
+In[269]:one backward pass for a node then replicated to the other 64 neurons
+In[286]:trains with the previous used backward pass, reininitalizes NN, manual backprop, everything that goes on under the hood to give gradients
+  each layer is ~3 lines of code
+In[285]: Checks gradients
