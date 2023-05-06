@@ -300,9 +300,10 @@ In[211]:simpler way of backpropagating with loss function
 In[225]:checks first row 
 In[235]:softmax calculates probability, sums to 1
 In[239]: Visualizing dlogits=probabilities matrix from forward pass
-
-
-
+In[269]:one backward pass for a node then replicated to the other 64 neurons
+In[286]:trains with the previous used backward pass, reininitalizes NN, manual backprop, everything that goes on under the hood to give gradients
+  each layer is ~3 lines of code
+In[285]: Checks gradients
 
 
 
