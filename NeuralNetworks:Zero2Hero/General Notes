@@ -305,7 +305,17 @@ In[286]:trains with the previous used backward pass, reininitalizes NN, manual b
   each layer is ~3 lines of code
 In[285]: Checks gradients
 
+=============================================================================================================================================
+Video 6: 56:21(Length)
+Building makemore Part 4: Becoming a Backprop Ninja
+https://www.youtube.com/watch?v=q8SA3rM6ckI&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=6
+Links:
+https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
+Wavenet2016 by Deepmind:
+https://arxiv.org/abs/1609.03499
 
+Video 6 Lecture Time(1:40) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part5_cnn1.ipynb
 
 
 
