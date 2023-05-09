@@ -307,8 +307,8 @@ In[285]: Checks gradients
 
 =============================================================================================================================================
 Video 6: 56:21(Length)
-Building makemore Part 4: Becoming a Backprop Ninja
-https://www.youtube.com/watch?v=q8SA3rM6ckI&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=6
+Building makemore Part 5: Building a WaveNet
+https://www.youtube.com/watch?v=t3YJ5hKiMQ0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=8
 Links:
 https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
 Wavenet2016 by Deepmind:
@@ -316,10 +316,19 @@ https://arxiv.org/abs/1609.03499
 
 Video 6 Lecture Time(1:40) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part5_cnn1.ipynb
-
-
-
-
+In[1]:Imports
+In[2]:reading dataset
+In[3]:builds sets of characters
+In[4]:shuffle words
+In[5]:processing set of words into examples of 3 chars trying to predict 4th
+In[7]:API's similar to pytorch created manually, for each layer; linear, batch normalization, tanh layers
+In[8]:seed random data 
+In[9]:creates embedding layers, and parameters
+In[10]:optimization/training for 200 000 steps, forward pass -> backward pass -> update
+In[11]: plots loss function
+In[12]:evaluation for training mode =  False
+In[13]:evaluates the loss function
+In[14]:samples the model
 
 
 
