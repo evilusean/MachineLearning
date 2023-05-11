@@ -332,7 +332,7 @@ In[11]: plots loss function
 In[12]:evaluation for training mode =  False
 In[13]:evaluates the loss function
 In[14]:samples the model; logits into softmax to get probabilities, 
-
+.view(dimensions) #you can 'request' the matrix to the right shape
 
 
 
