@@ -337,4 +337,18 @@ In[16]:for loop going over each character in the previous sample
 .view(dimensions) #you can 'request' the matrix to the right shape
 noone is maintaining pytorch documentation, may be inacurate 
 
+=============================================================================================================================================
+Video 7: 1:56:19(Length)
+Let's build GPT: from scratch, in code, spelled out.
+https://www.youtube.com/watch?v=kCc8FmEb1nY&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=7
+Links:
+GitHub Repo:
+https://github.com/karpathy/ng-video-lecture
+NanoGPT:
+https://github.com/karpathy/nanoGPT
+Google CoLab:
+https://colab.research.google.com/drive/1JMLa53HDuA-i7ZBmqV7ZnA3c_fvtXnx-?usp=sharing
+- Attention is All You Need paper: https://arxiv.org/abs/1706.03762
+- OpenAI GPT-3 paper: https://arxiv.org/abs/2005.14165 
+- OpenAI ChatGPT blog post: https://openai.com/blog/chatgpt/
 
