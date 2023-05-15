@@ -1,0 +1,31 @@
+=============================================================================================================================================
+Video 6: 56:21(Length)
+Building makemore Part 5: Building a WaveNet
+https://www.youtube.com/watch?v=t3YJ5hKiMQ0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=8
+Links:
+https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
+Wavenet2016 by Deepmind:
+https://arxiv.org/abs/1609.03499
+
+Video 6 Lecture Time(1:40) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks:Zero2Hero/V2Files/Jupyter/makemore_part5_cnn1.ipynb
+In[1]:Imports
+In[2]:reading dataset
+In[3]:builds sets of characters
+In[4]:shuffle words
+In[5]:processing set of words into examples of 3 chars trying to predict 4th
+  block_size = 8, takes 8 characters of context to predict 9th character
+  he groups characters as bigrams(2 characters each) then adds them together bigram groups=batch dimensions
+In[7]:API's similar to pytorch created manually, for each layer; linear, batch normalization, tanh layers
+In[8]:seed random data 
+In[9]:creates embedding layers, and parameters
+In[10]:optimization/training for 200 000 steps, forward pass -> backward pass -> update
+  best practice is to add a 'break' after first run to see if it runs correctly initially, then remove break
+In[11]: plots loss function
+In[12]:evaluation for training mode =  False
+In[13]:evaluates the loss function
+In[14]:samples the model; logits into softmax to get probabilities, 
+In[15]:goes over a single sample from the model
+In[16]:for loop going over each character in the previous sample
+.view(dimensions) #you can 'request' the matrix to the right shape
+noone is maintaining pytorch documentation, may be inacurate 
