@@ -1,2 +1,4 @@
 Google SentencePiece: converts characters to integers
 https://github.com/google/sentencepiece
+OpenAI Tokenizer: Tiktoken:
+https://github.com/openai/tiktoken
