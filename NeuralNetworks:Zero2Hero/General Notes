@@ -352,5 +352,41 @@ https://colab.research.google.com/drive/1JMLa53HDuA-i7ZBmqV7ZnA3c_fvtXnx-?usp=sh
 - OpenAI GPT-3 paper: https://arxiv.org/abs/2005.14165 
 - OpenAI ChatGPT blog post: https://openai.com/blog/chatgpt/
 
-Video 7 Lecture Time() Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Video 7 Lecture Time(8:00) Notes for Jupyter Notebooks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 https://github.com/evilusean/MachineLearning/blob/main/NeuralNetworks%3AZero2Hero/NanoGPT/gpt_dev.ipynb
+
+takes an input and attempts to 'predict' the answer(words/tokens)
+he uses tinyshakespeare dataset(all of shakespeare in 1mb) and uses it to create infinite shakespeare
+In[1]: downloads tiny shakespeare dataset 
+In[2]:read and inspect dataset
+In[3]:prints first 1000 characters
+In[5]:gets a set of all characters that occur in the text, creates a list, then sorts
+  vocab_size #possible elements(characters) in sequence
+  prints all characters possible, 65 characters possible
+In[6]: stoi = { ch:i for i,ch in enumerate(chars) } #creates a lookup table for the character and corresponding integer
+  each character corresponds to an integer, to encode chars ->  integers, to decode integers -> chars
+  Google uses SentencePiece: https://github.com/google/sentencepiece
+  OpenAI uses tiktoken: https://github.com/openai/tiktoken
+In[7]: tokenizer for nanogpt, takes characters and converts it into tensors using pytorch
+In[8]:seperating data into a training(90%) and validation split to check for overfitting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
