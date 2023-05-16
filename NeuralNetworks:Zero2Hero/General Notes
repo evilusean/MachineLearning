@@ -376,7 +376,8 @@ In[46]:batch of data to feed into transformer;
 In[47]:bigram language model implementation; logits=token embedding table, B=Batch=4, T=time=8, C=Channels=5
   cross entropy=negative log liklihood loss function
   generate function generates next character in series of prediction
-
+In[102]:pytorch optimization object;Adamw
+In[103]: training/optimization 
 
 
 
