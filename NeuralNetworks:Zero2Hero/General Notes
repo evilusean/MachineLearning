@@ -368,10 +368,14 @@ In[6]: stoi = { ch:i for i,ch in enumerate(chars) } #creates a lookup table for 
   Google uses SentencePiece: https://github.com/google/sentencepiece
   OpenAI uses tiktoken: https://github.com/openai/tiktoken
 In[7]: tokenizer for nanogpt, takes characters and converts it into tensors using pytorch
-In[8]:seperating data into a training(90%) and validation split to check for overfitting
-
-
-
+In[14]:seperating data into a training(90%) and validation split to check for overfitting
+In[43]:blocksize is the amount of code you sample(8 characters)
+In[44]:spells out above code with context, you can sample code and context with as little as 1 character
+In[45]:takes inputs and gives targets(guesstimates) of the next character should be; when input is X target is Y, 32 examples
+In[46]:batch of data to feed into transformer; 
+In[47]:bigram language model implementation; logits=token embedding table, B=Batch=4, T=time=8, C=Channels=5
+  cross entropy=negative log liklihood loss function
+  generate function generates next character in series of prediction
 
 
 
