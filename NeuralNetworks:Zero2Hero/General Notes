@@ -378,9 +378,11 @@ In[47]:bigram language model implementation; logits=token embedding table, B=Bat
   generate function generates next character in series of prediction
 In[102]:pytorch optimization object;Adamw
 In[103]: training/optimization 
-
-
-
+In[191]:Self attention, matrix multiplication, keepdims=True 
+In[221]:demonstrating how to get the same result from different inouts and weights
+In[222]:version 2 of demonstration
+In[234]:Version 3 of demonstration with softmax
+  How tokens can communicate with 'past' tokens for context to predict future tokens
 
 
 
