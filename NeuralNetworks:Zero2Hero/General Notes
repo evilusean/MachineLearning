@@ -388,7 +388,8 @@ In[235]:SelfAttention: references self for predictions for a single head, 4x8 to
   when tokens have a high affinity, through the softmax they will end up aggregating, sums to 1
   self attention can not tolerate high learning rates  
   deep neural nets suffer from optimization issues
-
+  FFN=Feed Forward Network
+  
 
 
 
