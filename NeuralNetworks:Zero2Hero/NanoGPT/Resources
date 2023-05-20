@@ -2,3 +2,5 @@ Google SentencePiece: converts characters to integers
 https://github.com/google/sentencepiece
 OpenAI Tokenizer: Tiktoken:
 https://github.com/openai/tiktoken
+Pytorch Layernorm:
+https://pytorch.org/docs/stable/generated/torch.nn.LayerNorm.html
