@@ -389,9 +389,13 @@ In[235]:SelfAttention: references self for predictions for a single head, 4x8 to
   self attention can not tolerate high learning rates  
   deep neural nets suffer from optimization issues
   FFN=Feed Forward Network
-  
-
-
+Dropout=every forward/backward pass randomly drops some nodes to 0 and continues training, used to reduce overfitting; drops loss from 2.07 to 1.48
+pretraining stage=training on a large chunk of internet and get it to first a decoder only transformer to babble text
+finetuning stage=increase the accuracy of the text, what OpenAI sam altman is doing during the finetuning stage is proprietary
+  also same guy that went to senate to demand senate regulate his industry. first mover advantage -> get govt to regulate out competition -> 
+    glorified google search engines are too dangerous for the plebs to have.
+trainers lobotimize the model during training by telling it that certain politically incorrect responses are rated lower by the indoctrinated trainer
+  reward model based on 'correctness' of responses, who trained the trainers?
 
 
 
