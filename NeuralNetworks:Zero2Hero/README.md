@@ -1,6 +1,6 @@
 Started: 08April2023
 
-End:
+End: 21May2023
 
 PlayList Link:
 
@@ -8,7 +8,9 @@ https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhR
 
 By Andrej Karpathy
 
-Wanted to understand what all the hype about AI/ChatGPT was about, so did this free 10+ hour course.
+Wanted to understand what all the hype about AI/ChatGPT was about, so did this free 10+ hour course.</br>
+We were told we are getting kurzweils singularity and we are all going to lose our jobs to AI, what we ended up getting is an overhyped censored and lobotomized politically correct glorified google search engine. That you have to pay for. Oh, and they are now trying to regulate everyone else now, too. </br>
+If you want to lose your fear of something, understand it. </br>
 
 Very Mathy, will need more linear algebra/calculus/trig to fully understand: </br>
 instantaneous rate of change: smaller interval = more accurate </br>
