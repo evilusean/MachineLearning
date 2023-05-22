@@ -1,4 +1,4 @@
-use command:
+use command: </br>
 git clone https://github.com/nomic-ai/gpt4all.git
 
 <h1 align="center">GPT4All</h1>
