@@ -1,5 +1,8 @@
+GPT4All runs locally on your machine without an internet connection, with many different models to choose from. </br>
+
 use command: </br>
-git clone https://github.com/nomic-ai/gpt4all.git
+git clone https://github.com/nomic-ai/gpt4all.git </br>
+Or use installer from website:
 
 <h1 align="center">GPT4All</h1>
 <p align="center">Open-source assistant-style large language models that run locally on your CPU</p>
