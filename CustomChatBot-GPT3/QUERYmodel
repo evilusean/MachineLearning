@@ -1,0 +1,1 @@
+SELECT response from mindsdb.gpt_model WHERE author_username = "Sean" AND text="why is gravity so different on the sun?";
