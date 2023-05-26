@@ -15,3 +15,4 @@ AI Table acts like a normal database table that allows you to use SQL queries to
 You can then connect to the SQL database like any other SQL database from the frontend/backend </br>
 You can integrate with any DB like oracle, openAI, MongoDB, MySQL. </br>
 You can create a model in 2-3 SQL statements </br>
+You can use MindsDB QueryModel(code above) after you create a model to use OpenAI's ChatGPT without an account or tokens. </br>
