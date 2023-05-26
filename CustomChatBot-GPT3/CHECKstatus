@@ -1,0 +1,3 @@
+SELECT *
+FROM mindsdb.models
+WHERE name='gpt_model';
