@@ -1,0 +1,4 @@
+SELECT response from mindsdb.snoopstein_model
+WHERE 
+author_username = "someuser" 
+AND text="@snoop_stein, why is gravity so different on the sun?.";
