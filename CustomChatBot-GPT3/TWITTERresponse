@@ -1,0 +1,11 @@
+SELECT 
+t.id AS in_reply_to_tweet_id, 
+t.text AS input_text, 
+t.author_username, 
+t.created_at, 
+r.response AS text 
+FROM my_twitter.tweets t 
+JOIN mindsdb.snoopstein_model r 
+WHERE t.query = '(@snoopstein OR @snoop_stein OR #snoopstein OR #snoop_stein) -is:retweet -from:snoop_stein' 
+AND t.created_at >  '2023-03-20' 
+LIMIT 4;
