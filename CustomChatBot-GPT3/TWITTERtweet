@@ -1,0 +1,4 @@
+INSERT INTO my_twitter_v2.tweets (in_reply_to_tweet_id, text) 
+VALUES 
+ (1633439839491092482, 'MindsDB is great! now its super simple to build ML powered apps using JOBS https://docs.mindsdb.com/sql/tutorials/twitter-chatbot'),
+ (1634126825377996800, 'Holy!! MindsDB is such a useful tool for developers doing ML https://docs.mindsdb.com/sql/tutorials/twitter-chatbot');
