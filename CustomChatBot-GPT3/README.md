@@ -16,3 +16,4 @@ You can then connect to the SQL database like any other SQL database from the fr
 You can integrate with any DB like oracle, openAI, MongoDB, MySQL. </br>
 You can create a model in 2-3 SQL statements </br>
 You can use MindsDB QueryModel(code above) after you create a model to use OpenAI's ChatGPT without an account or tokens. </br>
+You can change the personality of the bot by altering the 'prompt_template = ...' </br>
