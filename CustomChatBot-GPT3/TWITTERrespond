@@ -1,0 +1,29 @@
+"""
+ you will need to sign up for a Twitter dev account
+ Open developer portal,
+Select the [+ Add app] button to create a new app
+Select [Create new]
+Select “Production” and give it a name
+Copy and populate in the query
+API Key (aka. consumer_key)
+API Key Secret (aka. consumer_secret)
+Bearer Token
+Click Setup on User authentication settings
+On Permissions Select: Read and Write
+On Type of app Select: Web App, Automated App or Bot
+On App info: provide any url for the callback url and website url
+Click Save
+Once you are back in the app settings, click Keys and Tokens
+Generate Access Token and Secret and populate on the query
+Access Token
+Access Token Secret
+"""
+CREATE DATABASE mindsdb.my_twitter_v2
+WITH
+  PARAMETERS = {
+   "consumer_key": "your twitter App API key",
+   "consumer_secret": "your twitter App API key secret",
+   "bearer_token": "your twitter App bearer TOKEN",
+   "access_token": "your twitter App Access Token",
+   "access_token_secret": "your twitter App Access Token Secret"
+  };
