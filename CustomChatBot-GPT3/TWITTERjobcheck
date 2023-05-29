@@ -1,0 +1,2 @@
+SELECT * FROM jobs WHERE name="gpt4_twitter_job";
+SELECT * FROM jobs_history WHERE name="gpt4_twitter_job";
