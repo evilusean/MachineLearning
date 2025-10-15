@@ -5,12 +5,24 @@ https://www.youtube.com/watch?v=5kWLPYAL8f0
 Arcjet (Security Library):
 https://arcjet.com/
 
+MCP (Model Context Protocol):
 you need to learn MCP RIGHT NOW!! (Model Context Protocol) - Locally, Docker Desktop7, LLM(claude desktop), llama, cursor, obsidian  :
 https://www.youtube.com/watch?v=GuTcle5edjk
 https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/
 FS - How to make vibe coding not suck… :
 https://www.youtube.com/watch?v=PLKrSVuT-Dg
 https://docs.claude.com/en/docs/claude-code/mcp
+Github MCP Servers :
+https://github.com/github/github-mcp-server
+MCP Atlassian :
+https://github.com/sooperset/mcp-atlassian
+Figma MCP :
+https://www.figma.com/mcp-catalog/
+https://github.com/sooperset/mcp-atlassian
+AWS MCP Servers:
+https://awslabs.github.io/mcp/
+Svelte MCP Server (any language can be used, find an MCP that understands the obscure language you are working with, and connect it to claude, or whatever) :
+https://svelte.dev/docs/mcp/overview
 
 n8n (node-based no-code) Free and opensource automation workflows Vs Zapier : 
 https://www.youtube.com/watch?v=bS9R6aCVEzw
