@@ -49,6 +49,9 @@ https://www.youtube.com/watch?v=YY-egxTQirA
 Closed AI - Agentkit (similar to zapier or n8n) :
 https://openai.com/index/introducing-agentkit/
 
+Agent Zero - self-hosted, general-purpose AI agent framework runs an isolated Docker with a Linux terminal, web browser, and code execution it write, run, its own tools :
+https://www.agent-zero.ai/
+
 Prompts (language teacher, interviewer, etc) :
 https://github.com/f/awesome-chatgpt-prompts
 
